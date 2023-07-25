@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+    <title>Website Portfolio</title>
+
+
+    <style>
+        h2 {
+            scroll-margin-top: 200px;
+        }
+        .container2 {
+            text-align: left;
+        }
+        
+        .btn_CV {
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <nav>
+            <h2 class="outlined-title22">Website <span>Portfolio</span></h2>
+            <i class="fa-brands fa-python"></i>
+            <ul class="cabeçalho-link">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#section_about">About</a>
+                </li>
+                <li>
+                    <a href="#section_projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#section_contactme">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="Main">
+            <div class="text">
+                <h4>Hello, my name is</h4>
+                <h1>João <span>Lucas</span></h1>
+                <h3>I am <span>Computer  Science  Engineer</span></h3>
+                <div class="container2">
+                <a href="My Professional Resume.pdf" download class="btn_CV">Download CV</a>
+                </div>
+            </div><!--text-->
+        </div><!--Main-->
+    </div><!--background-->
+
+    <!--Começo da secção ABOUT-->
+
+    <h2 id="section_about" style="margin-top: -100px;"></h2>
+    
+    
+    <!-- Conteúdo da seção About -->
+    <section class="background-color-About">
+        <div class="main-About">
+            <img src="Eu 4.png" class="bordered-image">
+            <div class="Text-About">
+                <h2>About Me</h2>
+                <h5>Full Stack Developer<span> & </span> Software Engineer</h5>
+                <p>In my 3rd year of the BSc in Computer Science and Engineering, with a great interest in technology, more specifically in programming and cybersecurity. 
+                    I also like math, multimedia and physics. Portuguese citizen. Student-Worker.
+                </p>
+                <div style="text-align: center;">
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot" class="link-buttonPython" style="font-size: 25px;"><i class="fa-brands fa-github" style="font-size: 34px;"></i>Github Account</a>
+                    </button>
+                </div>
+            </div><!--Text-About-->
+        </div> <!--Main-About-->
+    </section><!--background-color-About-->
+
+
+    <div class="Projects">
+        <div class="Title">
+            <h2 class="outlined-title">My Main Projects</h2>
+        </div><!--Title-->
+        <h2 id="section_projects" ></h2>
+        <!-- Conteúdo da seção Projects -->
+
+        <!-- Contêiner do carrossel -->
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Mancala Python Project</h5>
+                    <p>The Python Mancala project is an implementation of the popular board game called Mancala using the Python programming language. 
+                        Mancala is an ancient strategy game that originated in Africa and has been played for centuries.
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Python-Mancala-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <h5>TicTacToe Java Project</h5>
+                    <p> The Java Tic-Tac-Toe project is an implementation of the classic game of Tic-Tac-Toe using the Java programming language.
+                        The objective of the game is to get a number of your marks (either X or O) in a row, either horizontally, vertically, or diagonally.</p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Java---Project---TicTacToe" class="link-buttonJava">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+
+                <div class="card">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h5>Assembly Calculator Project</h5>
+                    <p>The Assembly Calculator project is an implementation of a basic calculator using assembly language. 
+                        Assembly language is a low-level programming language that is closely related to the machine code instructions of a specific computer architecture.</p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Assembly-Project" class="link-buttonAssembly">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-file"></i>
+                    <h5>Value-PI C Project</h5>
+                    <p>Regarding the statement, it is intended to implement the algorithm of “Monte Carlo” simulation, which will work as an estimate of the value of π, using various “threads” and points. 
+                        Considering a square and a circle defined therein, a certain amount of random points will be generated. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Value-PI--C-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+               
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>Cinema Room Python Project</h5>
+                    <p>Considering a concert hall that has been scheduled for this year 2022 and for the year 2023 several shows (created by the group). 
+                    The system must contain a menu that allows you to reserve seats, eliminate/change reservations for each show, consult the value from the ticket office.
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Python-Cinema-Room-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <h5>Acess Database Project</h5>
+                    <p>Management of a store with several points of sale. 
+                    Tasks to be carried out: Invoices (issuance and listing by range, for a store or total), incoming documents (issue and listing by range, for a store or total), transfer between stores, stocks on a given date (end of day) for one store or total. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Database-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h5>Discrete Computing Structures Project</h5>
+                    <p>Implement a function called: 𝐨𝐮_𝐞𝐱𝐜𝐥𝐮𝐬𝐢𝐯𝐨 (𝒑, 𝒒). 
+                    Implement a function that takes a positive integer and returns a list with the respective prime factors. 
+                    Implement a function 𝒇(𝒏; 𝒃) that, using Euclid's algorithm expanded, return, if any, the inverse multiplicative of b modulo n. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Discrete-Computing-Structures---Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-file"></i>
+                    <h5>GECCO Engineering Project</h5>
+                    <p>Competition on Dynamic Stacking Optimization in Uncertain Environments. 
+                    In this competition your goal is to write a policy that optimizes crane actions in simulated environments. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/GECCO---DynStack-2023-Competition" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h5>CollisionCourse C++ Project</h5>
+                    <p>Since the project was developed by 3 elements, the requirement was the existence of two or more tracks by direction and cars generated in random lanes and speeds.
+                        However, it was also developed from the optional functionality, from the 4 students project, of traffic control with traffic lights.
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/CollisionCourse-C-Plus-Plus-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                <div class="card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <h5>Disaster Recovery and Business Continuity Plan</h5>
+                    <p>
+                    It should include the following chapters: 
+                    - A description of the company chosen as a case study [type of business, type of customers and products marketed, size of the company, existing departments] 
+                    - A description of existing applications, as well as the department of ICTs [hardware, software, communications, personnel]. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Disaster-Recovery-and-Business-Continuity-Plan---University-Project" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+                 <div class="card">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <h5>Computer Graphics HTML and 3D Model</h5>
+                    <p>All my works related to the subject of Computer Graphics.
+                    It is a subject of the BSc in Computer Science and Engineering. 
+                    </p>
+                    <button class="button">
+                        <a href="https://github.com/JoaoLucas-bot/Computer-Graphics-HTML-and-3D-Model" class="link-buttonPython">Go to Project</a>
+                    </button>
+                </div><!--Card-->
+
+            </div><!--carousel-->
+        </div><!--carousel-container-->
+    </div> <!--Projects Section-->
+
+    <section class="background-color-contate">
+    <h2 id="section_contactme" ></h2>
+    <!-- Conteúdo da seção ContactMe -->
+
+      <div class="main-contate">
+            <img src="Eu 3.png" class="bordered-image">
+            <div class="Text-contate">
+                <h2>Contact</h2>
+                <h5>If you are interested in my services, please contact me.</h5>
+                    <div class="Redes-sociais">
+                        <a href="https://www.linkedin.com/in/joaolucaspc/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div><!--Redes-sociais-->
+            </div><!--Text-About-->
+        </div> <!--Main-About-->
+
+    </section>
+
+    <!--Rodapé--->
+    <footer>
+        <p>The background image was taken from the website www.freepik.com</p>
+        <p class="end">CopyRight By João Lucas <i class="fa-regular fa-copyright"></i></p>
+    </footer>
+    <script src="carousel.js"></script>
+</body>
+</html>
